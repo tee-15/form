@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f1f1f1;
+}
+#regForm {
+    background-color: #ffffff;
+    margin: 100px auto;
+    font-family: raleway;
+    padding: 40px;
+    width: 27%;
+    min-width: 300px;
+    animation: mymove 5s infinite;
+}
+@keyframes mymove{
+    from{background-color: #ffffff;}
+    to{background-color: hotpink;}
+    50%{box-shadow: 10px 20px 30px grey;}
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+input {
+    padding: 12px;
+    width: 17em;
+    font-size: 17px;
+    font-family: raleway;
+    border: 1px solid #aaaaaa;
+    margin-top: 2em;
+}
+input.invalid {
+    background-color: #ffdddd;
+}
+.tab{
+    display: none;
+    margin-top: 3em;
+}
+button{
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    font-size: 17px;
+    font-family: raleway;
+    cursor: pointer;
+    margin-top: 2em;
+    width: 1em;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+button:hover{
+    opacity: 0.8;
+    width: 7em;
+    transition: .5s;
+}
+#prevBtn{
+    background-color: #bbbbbb;
+}
+.step{
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+.step.active{
+    opacity: 1;
+}
+.step.finish{
+    background-color: #4caf50;
+}
