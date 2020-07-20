@@ -55,9 +55,15 @@ button:hover{
     opacity: 0.8;
     width: 7em;
     transition: .5s;
+    margin-left: 3em;
 }
 #prevBtn{
     background-color: #bbbbbb;
+}
+#prevBtn:hover{
+    opacity: 0.8;
+    width: 7em;
+    transition: .5s;
 }
 .step{
     height: 15px;
